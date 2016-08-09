@@ -1,10 +1,13 @@
 {
-  "name": "setasign/fpdi",
+  "name": "chap-pfp/fpdi",
   "version": "1.6.1",
   "homepage": "https://www.setasign.com/fpdi",
   "description": "FPDI is a collection of PHP classes facilitating developers to read pages from existing PDF documents and use them as templates in FPDF. Because it is also possible to use FPDI with TCPDF, there are no fixed dependencies defined. Please see suggestions for packages which evaluates the dependencies automatically.",
   "description2":"Replacement for FPDI requirement (mPDF) by older version",
   "type": "library",
+  "replace": {
+    "setasign/fpdi": "1.6.1"
+  },
   "keywords": ["pdf", "fpdi", "fpdf"],
   "license": "MIT",
   "authors": [
