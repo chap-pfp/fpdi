@@ -19,11 +19,6 @@
   ],
   "autoload": {
     "classmap": [
-      "fpdi.php",
-      "fpdf_tpl.php",
-      "fpdi_pdf_parser.php",
-      "pdf_context.php",
-      "fpdi2tcpdf_bridge"
     ]
   }
 }
